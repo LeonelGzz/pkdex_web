@@ -1,0 +1,36 @@
+:root{
+    --color-primario-claro:#ff5200;
+    --color-primario-oscuro:#6f0000;
+    --color-secundario-claro:#00a1ab;
+    --color-secundario-oscuro:#00263b;
+    --color-blanco:#f4f6ff;
+}
+
+body {
+    background-color: var(--color-primario-oscuro);
+    padding: 10px;
+}
+
+
+.pokemon-container{
+    background: var(--color-blanco);
+    margin: 10px;
+    padding: 0px 10px 0px 0px;
+    border-radius:  50px 50px 50px 50px ;    
+}
+
+p.name {
+    text-transform: capitalize;
+}
+
+.pokemon-container:hover{
+    margin: 5px;
+    background: linear-gradient(90deg, var(--color-blanco) 60%, var(--color-primario-oscuro) 100%);
+}
+
+
+.display img{
+    background-color: var(--color-secundario-claro);
+    width: 10em;
+    height: 10em;
+}
